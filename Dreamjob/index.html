@@ -1,0 +1,1072 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>DreamJob Website Design
+    </title>
+  </head>
+  <style>
+      
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+         .container{
+		width: 90%;
+		padding: 20px;
+		/* margin: 100px auto; */
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 00px;
+		/* background: #ddd; */
+		display: flex;
+		/* flex-direction: row; */
+		justify-content: center;
+	}
+    .container2{
+		width: 90%;
+		padding: 20px;
+		/* margin: 100px auto; */
+        margin-left: auto;
+        margin-right: auto;
+		/* margin-top: 500px; */
+		display: flex;
+		/* flex-direction: row; */
+		justify-content: center;
+	}
+
+	.box{
+		width: 250px;
+		height: 270px;
+		background: white;
+        border: 5px solid white;
+    margin: 0px 10px;
+    transition: 1s;
+    border-radius: 10px;
+
+	}
+	.box:hover{
+		transform: scale(1.08);
+		background: white;
+		z-index: 2;
+		box-shadow: 2px 2px 2px rgb(84, 84, 105);
+	}
+    .btn{
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 43%;
+        background-color: rgb(30, 34, 66);
+        font-size: 17px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 7px;
+    }
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+     max-width: 1150px;
+}
+    .container3{
+       width: 90%;
+		/* padding: 20px; */
+		/* margin: 100px auto; */
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 00px;
+		/* background: #ddd; */
+		display: flex;
+		/* flex-direction: row; */
+		justify-content: center;
+        display: none;
+		/* flex-direction: row; */
+		justify-content: center;
+    }
+    .carousel-caption{
+        margin-left: 50%;
+    margin-bottom: 14%;
+    }
+
+ 
+      .carousel-control-prev,.carousel-control-next{
+background-color: orange;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+      }
+      .carousel-inner{
+          width: 900px;
+          border-radius: 50%;
+          
+      }
+      body {
+  background: #eee;
+}
+.container {
+  width: 70%;
+  margin:20px auto;
+}
+.carousel {
+  /* border: 2px solid #416be4; */
+  
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.slider {
+  display: flex;
+  height: 100%;
+  width: 400%;
+}
+.slider section {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+  font-size: 15px;
+}
+.left, .right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.arrow i {
+    position: relative;
+        top: 235px;
+  font-size: 40px;
+  -webkit-user-select: none;
+  color: black;
+  margin-left: 480px;
+  margin-right: 480px;
+}
+.left {
+  position: relative;
+  bottom: 330px;
+  left: 262px;
+}
+.right {
+  position: relative;
+  bottom: 394px;
+  left: 325px;
+}
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+.control ul li {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.control ul li.selected {
+  background: transparent;
+}
+.img{
+    border-radius: 50%;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.heading {
+    width: 25%;
+    position: relative;
+    bottom: 400px;
+    left: 720px;
+}
+.para{
+    position: relative;
+    bottom: 360px;
+    /* right: 830px; */
+    left: 720px;
+    width: 700px;
+}
+.material-icons{
+    background-color: pink;
+    border-radius: 50%;
+    
+    
+
+}
+.material-icons1{
+    background-color: pink;
+    border-radius: 50%;
+}
+.arrow i1 {
+    position: relative;
+    top: 144px;
+  font-size: 40px;
+  -webkit-user-select: none;
+  color: white;
+}
+
+/*==================== Particle CSS =====================================*/
+
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+
+.title1{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-l{
+    font-size: 14px;
+    font-weight: 500;
+    color: #747474;
+}
+
+
+/*==================== Main CSS =====================================*/
+
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: relative;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+}
+
+nav img{
+    width: 50px;
+    position: absolute;
+    bottom: -30px;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav>ul li:last-child{
+    margin-left: 20px;
+}
+
+button{
+    padding: 7px 20px 8px 20px;
+    background: transparent;
+    border: 2px solid #0F47C0;
+    color: #0F47C0;
+    font-weight: 600;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+nav ul li:last-child button{
+    color: #fff;
+    background-color: #0F47C0;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left h2{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-left ul li{
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#home{
+    width: 100%;
+    height: 85%;
+    background-color: #F8F9FB;
+    display: flex;
+    position: relative;
+}
+
+#home-left, #home-right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+#home-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-left .center{
+    width: 80%;
+}
+
+.center h1{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+.center p{
+    width: 80%;
+    margin: 40px 0;
+    color: #747474;
+}
+
+.center button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-weight: 400;
+    padding: 15px 20px;
+}
+
+#home-right img{
+    width: 90%;
+    position: absolute;
+    bottom: -17%;
+}
+
+.home-group{
+    width: 70%;
+    height: 110px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -55px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 0 #7474741A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-group img{
+    height: 30px;
+}
+
+#catelog{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding: 40px 50px; */
+    margin-top: 30px;
+    /* padding-bottom: 100px; */
+    position: relative;
+}
+.contain{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 0px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.catelog-item{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.catelog-item:hover{
+    box-shadow: 4px 4px 20px 0px rgb(221, 221, 221);
+}
+
+.catelog-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catelog-img img{
+    width: 30px;
+}
+
+.catelog-item .title1 {
+    width: 80%;
+}
+
+#catelog-btn{
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.lorem{
+    width: 35%;
+    margin-left: 200px;
+}
+.bold{
+    margin-left: 200px;
+}
+.prasham{
+    display: inline-flex;
+    position: relative;
+    left: 800px;
+    bottom: 250px;
+}
+.boost{
+    background-color: rgb(245, 245, 245);
+    height: 700px;
+}
+.register{
+    position: relative;
+    bottom: 150px;
+    right: 250px;
+    color: white;
+    background-color: rgb(26, 30, 65);
+    border: 0px;
+}
+
+.extra1, .extra2, .extra3{
+    display: none;
+}
+.newsletter{
+    
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 33%;
+    margin-top: 30px;
+}
+.prasham1{
+    
+    margin-right: 70px;
+    background-color: pink;
+    height: 328px;
+    border-radius: 200px;
+    /* background-clip: padding-box; */
+    margin-left: 70px;
+    padding: 40px;
+}
+.area{
+    margin-top: 150px;
+    margin-left: 33%;
+    border-radius: 50px;
+    height: 50px;
+    width: 400px;
+}
+.area::placeholder{
+    text-align: center;
+    padding-top: 10px;
+}
+.z-btn{
+    position: relative;
+    bottom: 20px;
+    right: 82px;
+    height: 49px;
+    color: white;
+    background-color: #020725;
+    border: 1px solid black;
+}
+.emailimg{
+    right: 500px;
+    /* right: 500px; */
+    /* margin-right: 46px; */
+    position: relative;
+    bottom: 20px;
+}
+.footer{
+	background-color: #020725;
+    padding: 70px 0;
+    width: 99%;
+}
+.footer-col{
+   width: 20%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+    text-align: left;
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	/* background-color: #e91e63; */
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+/* .footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+} */
+.footer-col .social-links a:hover{
+	color: #24262b;
+    background-color: #ffffff;
+    
+}
+
+
+
+/* responsive */
+@media(max-width: 780px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.class{
+    color: rgb(201, 201, 47);
+
+}
+.class1{
+    color: white;
+}
+.big{
+    margin-left: 25px;
+}
+.end{
+    text-align: center;
+    color: white;
+    background-color: rgb(1, 1, 32);
+    font-size: 13px;
+}
+.backcolour{
+    background-color: rgb(245, 245, 245);
+}
+@media(max-width:1070px){
+    .home{
+        max-width: 100%;
+        height: auto;
+    }
+}
+.name{
+    position: relative;
+    bottom: 320px;
+    left: 720px;
+    /* right: 0px; */
+    width: 700px;
+}
+
+
+.name1{
+    position: relative;
+    bottom: 300px; 
+     /* right: 830px; */
+     left: 720px;
+     font-size: 15px;
+    width: 700px;
+}
+
+
+
+  </style>
+  <body>
+    <nav>
+        
+        <div class="nav-left" >
+            <h2>DREAMJOB</h2>
+            <ul>
+                <li>Home</li>
+                <li>Job Seekers</li>
+                <li>Post A Job</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <ul>
+            <li><button>Sign In</button></li>
+            <li><button>Free Trial</button></li>
+        </ul>
+
+        <img src="Group 6002.svg" alt="">
+    </nav>
+
+    <div id="home">
+        <div id="home-left">
+            <div class="center">
+                <h1>Dream jobs <br> waiting for you!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quisquam voluptatibus voluptatem.</p>
+                <button>Get Started</button>
+            </div>
+        </div>
+        <div id="home-right">
+            <img src="girl.png" alt="">
+        </div>
+
+        <div class="home-group">
+            <img src="Group 5999.svg" alt="">
+        </div>
+    </div>
+    <br>
+   
+    <div id="catelog">
+        <h2 class="title">Browse Jobs By Category</h2>
+
+        <div class="container">
+            <div class="catelog-item">
+                
+                <div class="catelog-img">
+                    <img src="001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <div class="catelog-item">
+                
+                <div class="catelog-img">
+                    <img src="002-flask.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Science and Technologies </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <div class="catelog-item">
+                
+                <div class="catelog-img">
+                    <img src="004-desk.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Office Administrative </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <div class="catelog-item">
+                
+                <div class="catelog-img">
+                    <img src="003-office-building.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Property Devolopment</h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <div class="catelog-item">
+                
+                <div class="catelog-img">
+                    <img src="006-briefcase.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Business Devolopment </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <div class="catelog-item">
+                
+                <div class="catelog-img">
+                    <img src="005-clipboard.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Admin and Accountant </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <div class="catelog-item extra1">
+                
+                <div class="catelog-img">
+                    <img src="001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <div class="catelog-item extra2">
+                
+                <div class="catelog-img">
+                    <img src="001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <div class="catelog-item extra3">
+                
+                <div class="catelog-img">
+                    <img src="001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <!-- <button id="catelog-btn">See All Category</button> -->
+        </div>
+    </div>
+    <div id="myDIV">
+        <div class="container3" id="image">
+                <div class="catelog-item">
+                    
+                    <div class="catelog-img">
+                        <img src="001-vector-design.svg" alt="">
+                    </div>
+    
+                    <h3 class="title1"> Design & Development </h3>
+    
+                    <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+                </div>
+    
+                <div class="catelog-item">
+                    
+                    <div class="catelog-img">
+                        <img src="001-vector-design.svg" alt="">
+                    </div>
+    
+                    <h3 class="title1"> Design & Development </h3>
+    
+                    <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+                </div>
+    
+                <div class="catelog-item">
+                    
+                    <div class="catelog-img">
+                        <img src="001-vector-design.svg" alt="">
+                    </div>
+    
+                    <h3 class="title1"> Design & Development </h3>
+    
+                    <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+                </div>
+    
+    </div>
+
+    <!-- <div id="myDIV"> -->
+        <div class="container3" id="image1">
+            <div class="catelog-item">
+                    
+                <div class="catelog-img">
+                    <img src="001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <div class="catelog-item">
+                
+                <div class="catelog-img">
+                    <img src="001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+
+            <div class="catelog-item">
+                
+                <div class="catelog-img">
+                    <img src="001-vector-design.svg" alt="">
+                </div>
+
+                <h3 class="title1"> Design & Development </h3>
+
+                <p class="text-l">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, excepturi.</p>
+            </div>
+</div>
+
+    <button type="button" class="btn" id="read" onclick="read()">See All Categories</button>
+    <br>
+    <br>
+    <br>
+
+    <div class="boost">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="bold">Build and Boost</h1>
+      <h1 class="bold">your Great Profile</h1>
+      <br>
+      <br>
+      <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit eaque, provident perspiciatis accusamus a aliquid quam doloribus maxime et, eos, aperiam ad commodi amet corporis sed hic nesciunt libero? Animi!</p>
+      <img src="ss1.PNG" class="prasham" alt="">
+      <button class="register">Register Now</button>
+
+    </div>
+</section>
+
+    <div class="contain">
+        <div class="carousel">
+          <div class="slider">
+            <section>
+                
+                <img src="Ellipse 588.svg"  class="img"  alt="" width="450px" height="450px">    
+                <h1 class="heading">What's our Jobseekers Said.</h1>   
+             <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum similique voluptatibus quos unde a molestias saepe aperiam nobis facere nihil fuga dolore expedita atque recusandae, quo fugit est incidunt harum aut ex quidem cons</p> 
+             
+             <h3 class="name">Prasham </h3> 
+             <p class="name1">React Devoloper.</p>
+             </section>
+            <section><img src="blue.jpg" class="img"  alt=""  width="450px" height="450px">
+                <h1 class="heading">What's our Jobseekers Said.</h1>  
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eligendi laborum eaque molestiae cumque tenetur non, officiis mollitia necessitatibus aperiam eius consectetur incidunt animi libero nesciunt nobis modi quo? Assumenda nesciunt ab facere velit corporis 
+                </p> 
+                <h3 class="name">Diana</h3>
+                <p class="name1">Java Devoloper.</p> 
+            </section>
+            <section><img src="green.jpg"  class="img" alt="" width="450px" height="450px">
+                <h1 class="heading">What's our Jobseekers Said.</h1>  
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eligendi laborum eaque molestiae cumque tenetur non, officiis mollitia necessitatibus aperiam eius consectetur incidunt animi libero nesciunt nobis modi quo? Assumenda nesciunt ab facere velit corporis rem.</p>  
+                <h3 class="name">Tony</h3>
+                <p class="name1">Frontend Devoloper.</p>
+
+            </section>
+            <section><img src="red.jpg" class="img"  alt="" width="450px" height="450px">
+                <h1 class="heading">What's our Jobseekers Said.</h1> 
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique eligendi laborum eaque molestiae cumque tenetur non, officiis mollitia necessitatibus aperiam eius consectetur incidunt animi libero nesciunt nobis modi quo? Assumenda nesciunt ab facere velit corporis rem </p>   
+                <h3 class="name">John</h3>
+                <p class="name1">Backend Devoloper.</p>
+            </section>
+
+          </div>
+
+          <div class="control">
+            <span class="arrow left">
+              <i class="material-icons">
+              <!-- keyboard_arrow_left -->
+              <img src="Group 6017.svg" alt="">
+              </i>
+            </span>
+            <span class="arrow right">
+              <i class="material-icons1">
+              <!-- keyboard_arrow_right -->
+              <img src="Group 6018.svg" alt="">
+              </i>
+            </span>
+            
+            <ul>
+              <li class="selected"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     
+      <div class="backcolour">
+        <br>
+        <br>
+        <br>
+      <div class="prasham1">
+<h1 class="newsletter">Subscribe  to Our Newsletter <br> for the Weekly Update.</h1> <br>
+<textarea class="area" name="" id="" cols="35" rows="1" placeholder="Enter your email address here" ></textarea>
+<button class="z-btn">Subscribe</button>
+<img class="emailimg" src="email1.png" alt="" width="40px">
+</div>
+<br>
+<br>
+</div>
+
+<footer class="footer">
+    <div class="con">
+        <div class="row">
+            <div class="footer-col">
+                <h4 class="big">Categories</h4>
+                <ul>
+                    <li><a href="#">Content Writer</a></li>
+                    <li><a href="#">Backend Devloper</a></li>
+                    <li><a href="#">Creative Director</a></li>
+                    <li><a href="#">UI/UI Designer</a></li>
+                    <li><a href="#">More....</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="big">Resource</h4>
+                <ul>
+                    <li><a href="#">Contact and Support</a></li>
+                    <li><a href="#">Application</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="big">Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Job Seminar</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="big">Legals</h4>
+                <ul>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2 class="class">DREAMJOB</h2>
+                <p class="class1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, veritatis.</p>
+                <div class="social-links">
+                    <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a> -->
+                    <img src="follow-removebg-preview.png" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<h5 class="end">Copyright   2020 DREAMJOB.All Rights Reserved.</h5>
+
+      <script>
+
+        var i=0;
+               function read(){
+                   if(!i){
+                       document.getElementById("image").style.display="flex";
+                       document.getElementById("image1").style.display="flex";
+                       document.getElementById("read").innerHTML="Hide Categories";
+                       i=1;
+                   }
+                   else
+                   {
+                    document.getElementById("image").style.display="none";
+                       document.getElementById("image1").style.display="none";
+                       document.getElementById("read").innerHTML="See All Categories";
+                       i=0;   
+                   }
+               }
+           
+      const left = document.querySelector('.left');
+const right = document.querySelector('.right');
+
+const slider = document.querySelector('.slider');
+
+const indicatorParent = document.querySelector('.control ul'); 
+const indicators = document.querySelectorAll('.control li');
+index = 0;
+
+indicators.forEach((indicator, i) => {
+indicator.addEventListener('click', () => {
+document.querySelector('.control .selected').classList.remove('selected');
+indicator.classList.add('selected');
+slider.style.transform = 'translateX(' + (i) * -25 + '%)';  
+index = i;
+
+});
+});
+
+left.addEventListener('click', function() {
+index = (index > 0) ? index -1 : 0;
+document.querySelector('.control .selected').classList.remove('selected');
+indicatorParent.children[index].classList.add('selected');
+slider.style.transform = 'translateX(' + (index) * -25 + '%)';
+});
+
+right.addEventListener('click', function() {
+index = (index < 4 - 1) ? index+1 : 3;
+document.querySelector('.control .selected').classList.remove('selected');
+indicatorParent.children[index].classList.add('selected');
+slider.style.transform = 'translateX(' + (index) * -25 + '%)';
+});
+  </script>
+
+    </body>
+    </html>
